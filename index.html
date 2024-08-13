@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet shop</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-weight: bold;
+
+            }
+            body{
+                  font-family: "Montserrat Subrayada", sans-serif;
+                    background-color: white;
+            }
+                header{
+                    height: 70px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-bottom: 1px solid black;
+                }
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                }
+                ul li a{
+                    margin: 0 5px;
+                    border: 2px solid white;
+                    padding: 0px 10px;
+                    text-decoration: none;
+                    border-radius: 50px;
+                }
+                .logo{
+                    border: 2px solid white;
+                    padding: 10px 5px;
+                }
+                .signup{
+                    background-color: white;
+                    color: black;
+                }
+                .signup:hover{
+                    background-color: black;
+                    color: white;
+                }
+                main{
+                    display: flex;
+                    height: 90vh;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    margin: 0px 150px;
+                }
+                main h2{
+                    font-size: 30px;
+                    text-transform: uppercase;
+                }
+                main p{
+                    font-size: 14px;
+                    font-weight: 200;
+                    line-height: 31.5px;
+                    margin: 30px 0px;
+                }
+                .contentleft{
+                    flex: 1;
+                }
+                .contentmid{
+                    flex: 2;
+                }
+                .contentright{
+                    flex: 1;
+                }
+                .merc{
+                    max-width: 500px;
+                    height: auto;
+                }
+                .btn{
+                    padding: 15px 30px;
+                    background-color: yellowgreen;
+                    outline: none;
+                    border: none;
+                    color: black;
+                    border-radius: 50px;
+                    font-weight: 700;
+                }
+                .btn:hover{
+                    background-color: #222;
+                    color: white;
+                    border: 2px solid white;
+                }
+
+    </style>
+</head>
+<body>
+    <header>
+            <div class="logo">logo</div>
+            <nav>
+                    <ul>
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#"> offers</a></li>
+                        <li><a href="#"> buy now</a></li>
+                        <li><a href="#"> sell now</a></li>
+                        <li><a href="#"> about us</a></li>
+                        <li><a href="#" class="signup">sign up</a></li>
+                    </ul>
+            </nav>
+    </header>
+    <main>
+            <div class="contentleft">
+                <h2>mercury</h2>
+            </div>
+            <div class="contentleft">
+                <p>
+                is the smallest planet in the solar system, and it is also the planet closest to the Sun, making it the most difficult of the planets to see with the unaided eye
+
+                </p>
+                <button class="btn">buy now</button>
+            </div>
+            
+            <div class="contentleft">
+                <img src="./mercury html.webp"class="merc">
+            </div>  
+
+    </main>
+</body>
+</html>
